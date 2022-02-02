@@ -44,5 +44,12 @@ public class Persona {
         return "Persona{" + "nombre=" + nombre + ", apellido=" + apellido + ", edad=" + edad + '}';
     }
     
+    public boolean esMayor(){
+        return edad >= 18;
+    }
     
+    public void cantar(){
+        System.out.println(nombre+" está cantando:");
+        System.out.println("La cucaracha, la cucaracha. Ya no puede caminar...");
+    }
 }
